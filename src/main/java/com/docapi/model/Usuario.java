@@ -23,9 +23,6 @@ public class Usuario implements Serializable {
     @Column(nullable = false)
     private LocalDate nascimento;
 
-    @Column(nullable = false)
-    private Integer titulacao;
-
     @OneToMany( cascade = CascadeType.ALL)
     @JoinColumn(name = "fk_id_usuario", referencedColumnName = "idUsuario")
     private List<Playlist> playlist;

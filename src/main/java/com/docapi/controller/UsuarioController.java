@@ -68,8 +68,6 @@ public class UsuarioController {
                     user.setIdUsuario(usuario.getIdUsuario());
                     user.setNome(usuario.getNome());
                     user.setNascimento(usuario.getNascimento());
-                    user.setTitulacao(usuario.getTitulacao());
-
                     return UsuarioRepository.save(usuario);
                 })
                 .orElseGet(() -> {
