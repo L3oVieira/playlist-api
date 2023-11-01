@@ -28,7 +28,7 @@ public class Musica implements Serializable {
     private String album;
 
     @Column(nullable = false)
-    private Integer quantidadeDeMusicas;
+    private Integer numeroDaMusicaNoAlbum;
 
     @Schema(type = "String", pattern = "00:00:00")
     @JsonFormat(pattern = "HH:mm:ss", shape = JsonFormat.Shape.STRING)

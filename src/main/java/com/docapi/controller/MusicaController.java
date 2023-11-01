@@ -72,6 +72,7 @@ public class MusicaController {
                     msc.setArtista(musica.getArtista());
                     msc.setNome(musica.getNome());
                     msc.setAlbum(musica.getAlbum());
+                    msc.setNumeroDaMusicaNoAlbum(musica.getNumeroDaMusicaNoAlbum());
                     msc.setDuracao(musica.getDuracao());
                     msc.setDataLancamento(musica.getDataLancamento());
 
